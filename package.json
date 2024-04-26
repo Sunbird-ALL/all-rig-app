@@ -59,7 +59,6 @@
     "prettier:fix": "npm run prettier:cli --write",
     "eslint": "eslint src -c .eslintrc.json --ext js,jsx --max-warnings=0",
     "eslint:fix": "npm run eslint --fix",
-    "prepare": "husky install",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
     "lint": "eslint \"**/*.{js,jsx}\"",
